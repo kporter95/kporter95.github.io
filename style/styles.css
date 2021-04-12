@@ -17,7 +17,7 @@ h1 {
 	font-size: 50px;
 }
 .hero-image {
-	background-image: src("img/Newyork.jpg");
+	background-image: src("img/NewYork.jpg");
 	color: white;
 	height: 50%;
 	background-position: center;
