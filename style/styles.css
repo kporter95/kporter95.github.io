@@ -20,7 +20,7 @@ h1 {
 
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: src("img/Newyork.jpg);
+  background-image: src("img/Newyork.jpg");
   color: white;
 
   /* Set a specific height */
