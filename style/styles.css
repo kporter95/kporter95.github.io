@@ -18,7 +18,7 @@ h1 {
 
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: url("https://res.cloudinary.com/jerrick/image/upload/fl_progressive,q_auto,w_1024/zwkt0dtrpivfbflcf366.jpg");
+  background-image: url("img/NewYork.jpg");
   color: white;
 
   /* Set a specific height */
