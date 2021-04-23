@@ -19,7 +19,7 @@ h1 {
 
 .hero-image {
   background-image: url("../img/NewYork.jpg");
-  color: gray;
+  color: grey;
 
   /* Set a specific height */
   height: 50%;
