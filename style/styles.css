@@ -1,69 +1,80 @@
 table, th, td, tr {
-	border: 1px solid black;
+  border: 1px solid black;
 }
 th, td, tr {
-	padding: 3px;
-	border-spacing: 3px;
-	font-family: Arial, Helvetica, sans-serif;
+  padding: 3px;
+  spacing: 3px;
+font-family: Arial, Helvetica, sans-serif;
 }
+
 h2, li, table, p {
-	font-family: Arial, Helvetica, sans-serif;
+font-family: Arial, Helvetica, sans-serif;
 }
-img {
-	display: inline-block;
-}
+
 h1 {
-	font-family: Fantasy;
-	font-size: 50px;
+  font-family: Fantasy;
+  font-size: 50px;
 }
+
 .hero-image {
-	background-image: src("img/NewYork.jpg");
-	color: white;
-	height: 50%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
- 
-	/*
-  Parallax effect */
-  
-	background-attachment: fixed;
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: url("https://res.cloudinary.com/jerrick/image/upload/fl_progressive,q_auto,w_1024/zwkt0dtrpivfbflcf366.jpg");
+  color: white;
 
+  /* Set a specific height */
+  height: 50%;
 
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  /*Parallax effect */
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 .navbar {
-	position: fixed;
-	top: 0;
-	margin: 0;
-	padding: 0;
-	z-index: 2;
-	right: 15px;
+  position: fixed;
+  top:0;
+  margin:0;
+  padding:0;
+  z-index:2;
+  right:15px;
+  
 }
 .navbar li {
-	background-color: grey;
-	font-size: 20px;
-	color: white;
-	text-align: left;
+  
+  background-color:grey;
+  font-size:20px;
+  color:white;
+  text-align:left;
 }
+
 .navbar a {
-	color: white;
-	text-decoration: none;
+  color:white;
+  text-decoration: none;
 }
+
 .navbar a:hover {
-	background: #ddd;
-	color: black;
-	text-decoration: underline;
+  background: #ddd;
+  color: black;
+  text-decoration: underline;
 }
 body {
-	z-index: 1;
+  x-index: 1;
 }
+
 p {
-	text-align: center;
+  text-align: center;
 }
+
 .active {
-	background-color: #4CAF50;
+  background-color: #4CAF50;
 }
+
 tr:nth-child(even) {
-	background: #CCC;
+  background: #CCC;
 }
